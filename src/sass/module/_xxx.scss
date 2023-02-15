@@ -1,0 +1,27 @@
+@use "global" as *;
+
+.xxx {
+    width: 50%;
+    margin: rem(50) auto;
+    background: rgba(25, 190, 245, 1);
+    padding-top: rem(50);
+    position: relative;
+    overflow: hidden; // 文字が溢れた分は非表示
+    white-space: nowrap; // 文字は折り返しさせない
+
+    @include mq(md) {
+        // pc設定
+    }
+}
+
+.xxx>p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include mq(md) {
+        // pc設定
+    }
+}
