@@ -1,4 +1,4 @@
-画像
+<img width="1256" alt="image" src="https://user-images.githubusercontent.com/99580997/219166982-01ec4398-6211-4d25-807d-e4f954b11cae.png">
 
 # compornent（共通部品）
 - ボックスにpaddingで高さを持たせる方法。
@@ -7,6 +7,9 @@
 ## portfolio url:
 
 - https://c-0119.wtb.cfbx.jp/
+
+## codepen
+- https://codepen.io/mameta00/pen/oNPgwLL
 
 ## 更新履歴
 
